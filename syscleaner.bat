@@ -16,7 +16,7 @@ if %action% == 4 del /q/f/s %TEMP%\*
 if %action% == 5 start defrag.bat
 if %action% == 6 cleanmgr /sagerun
 if %action% == 7 shutdown /r
-if %action% == 8 close
+if %action% == 8 exit
 GOTO prompt
 pause > nul
 
