@@ -1,12 +1,14 @@
 @echo off
+mode con: cols=150 lines=75
 title syscleaner
 echo ********************************
 echo ** Windows System Cleaner 1.0 **
 echo ********************************
-type splashes\splash1.txt
+type splash.txt
 timeout 1 > nul                                 
 echo (c) 2023 Colin Wiborg under GNU General Public License 3.0
-timeout 2 > nul
+timeout 3 > nul
+cls
 :prompt
 set /p action=What would you like to do? 1. Run all processes 2. Backup 3. Flush DNS 4. Clear Temp Files 5. Defrag 6. Windows Disk Cleanup 7. Restart System 8. Quit - 
 if %action% == 1 start allprocesses.bat
