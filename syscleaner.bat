@@ -2,7 +2,7 @@
 mode con: cols=150 lines=75
 title syscleaner
 echo ********************************
-echo ** Windows System Cleaner 1.0 **
+echo ** Windows System Cleaner 0.11 **
 echo ********************************
 type splash.txt
 timeout 1 > nul                                 
