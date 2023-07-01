@@ -1,9 +1,9 @@
 @echo off
 mode con: cols=150 lines=75
 title syscleaner
-echo ********************************
-echo ** Windows System Cleaner 0.11 **
-echo ********************************
+echo *******************************
+echo **Windows System Cleaner 0.11**
+echo *******************************
 type splash.txt
 timeout 1 > nul                                 
 echo (c) 2023 Colin Wiborg under GNU General Public License 3.0
